@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
-
+  <remote name="pandeyop" fetch="https://github.com/pandeyop"/>
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
 	<project name="boto" remote="jiocloud" path="boto"/>
