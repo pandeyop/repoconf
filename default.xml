@@ -31,8 +31,8 @@
 	<project name="posix_ipc" remote="jiocloud" path="posix_ipc"/>
 	<project name="proliantutils" remote="jiocloud" path="proliantutils"/>
 	<project name="stevedore" remote="jiocloud" path="stevedore"/>
-        <project revision="43e2079feec4ffedb47102c56991fe67758485c0" name="tempest" remote="pandeyop" path="tempest"/>
-	<project revision="a3655c7b88d121f50c588a7e2ef99b5b3170e31a" name="tempest-lib" remote="pandeyop" path="tempest-lib"/>
+        <project revision="93f3afe9c7fc7ef36a3111067bc75ad34d049d39" name="tempest" remote="pandeyop" path="tempest"/>
+	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="testtools" remote="jiocloud" path="testtools"/>
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
