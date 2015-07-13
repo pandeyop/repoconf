@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
-  <remote name="pandeyop" fetch="https://github.com/pandeyop"/>
+  <remote name="afaheem88" fetch="https://github.com/afaheem88"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
@@ -32,8 +32,8 @@
 	<project name="posix_ipc" remote="jiocloud" path="posix_ipc"/>
 	<project name="proliantutils" remote="jiocloud" path="proliantutils"/>
 	<project name="stevedore" remote="jiocloud" path="stevedore"/>
-	<project revision="4da2dc48e85f47d9d3e277de4484a0440413c1a4" name="tempest" remote="pandeyop" path="tempest"/>
-	<project revision="969bf35984022f71642f041042af8ce72ad8a113" name="tempest-lib" remote="pandeyop" path="tempest-lib"/>
+	<project revision="971079716c11c16078abe8a3f9c4a034a798fbd8" name="tempest" remote="afaheem88" path="tempest"/>
+	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="testtools" remote="jiocloud" path="testtools"/>
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
