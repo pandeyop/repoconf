@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
+  <remote name="afaheem88" fetch="https://github.com/afaheem88"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
@@ -31,7 +32,7 @@
 	<project name="posix_ipc" remote="jiocloud" path="posix_ipc"/>
 	<project name="proliantutils" remote="jiocloud" path="proliantutils"/>
 	<project name="stevedore" remote="jiocloud" path="stevedore"/>
-	<project name="tempest" remote="jiocloud" path="tempest"/>
+	<project revision="e2d7b349af3f229b9a04ddca581f96e1d255fcaa" name="tempest" remote="afaheem88" path="tempest"/>
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="testtools" remote="jiocloud" path="testtools"/>
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
